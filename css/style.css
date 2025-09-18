@@ -99,7 +99,7 @@ nav ul {
 
 .search-container {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     margin: 35px 0;
 }
 
