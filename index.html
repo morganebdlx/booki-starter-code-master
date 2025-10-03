@@ -41,35 +41,27 @@
             </div>
 
             <!-------------------------- Search ---------------------------------->
-            <div class="search-container">
                 <form action="#" method="get" class="search-form">
-                    <label for="destination" class="sr-only">Destination</label>
 
                     <div class="search">
                         <i class="fa-solid fa-location-dot"></i>
-                        <input type="text" id="destination" name="destination" placeholder="Marseille, France" required>
-                        <button type="submit" class="search-button">Rechercher</button>
+                        <input type="text" name="destination" placeholder="Marseille, France" required>
+                        <button type="submit" class="search-button">
+                            <span class="button-text">Rechercher</span>
+                            <i class="fa-solid fa-magnifying-glass button-icon"></i>
+                        </button>
                     </div>
 
                 </form>
-            </div>
 
             <!--------------------------- Filtres -------------------------------->
             <div class="filters-container">
                 <h3 class="filters-title">Filtres</h3>
                     <div class="filter-div">
-                        <div class="button-div">
-                            <button class="filter-button"><i class="fa-solid fa-money-bill-1-wave"></i> Économique</button>
-                        </div>
-                        <div class="button-div">
-                            <button class="filter-button"><i class="fa-solid fa-person"></i> Familial</button>
-                        </div>
-                        <div class="button-div">
-                            <button class="filter-button"><i class="fa-solid fa-heart"></i> Romantique</button>
-                        </div>
-                        <div class="button-div">
-                            <button class="filter-button"><i class="fa-solid fa-fire"></i> Nos pépites</button>
-                        </div>
+                        <button class="filter-button"><i class="fa-solid fa-money-bill-1-wave"></i> Économique</button>
+                        <button class="filter-button"><i class="fa-solid fa-person"></i> Familial</button>
+                        <button class="filter-button"><i class="fa-solid fa-heart"></i> Romantique</button>
+                        <button class="filter-button"><i class="fa-solid fa-fire"></i> Nos pépites</button>
                     </div>
             </div>
 
@@ -278,7 +270,7 @@
             </div>
 
  <!--------------------------- Activités à Marseille ------------------------------>
-            <div class="activities">
+            <section class="activities">
                 <div class="activities-title">
                     <h2>Activités à Marseille</h2>
                 </div>
@@ -317,38 +309,35 @@
                             </div>
                     </article>
                 </div>
-            </div>
+            </section>
 
         </main>
 
 <!--------------------------- Footer ------------------------------>
 
         <footer>
-            <div class="footer-container">
-                <div class="footer-column">
-                    <h3>À propos</h3>
-                    <ul>
-                        <li><a href="#">Fonctionnement du site</a></li>
-                        <li><a href="#">Conditions générales</a></li>
-                        <li><a href="#">Données et confidentialité</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Nos hébergements</h3>
-                    <ul>
-                        <li><a href="#">Charte qualité</a></li>
-                        <li><a href="#">Proposer votre hôtel</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Assistance</h3>
-                    <ul>
-                        <li><a href="#">Centre d'aide</a></li>
-                        <li><a href="#">Nous contacter</a></li>
-                    </ul>
-                </div>
+            <div class="footer-column">
+                <h3>À propos</h3>
+                <ul>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
             </div>
-
+            <div class="footer-column">
+                <h3>Nos hébergements</h3>
+                <ul>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Proposer votre hôtel</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Assistance</h3>
+                <ul>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                </ul>
+            </div>
         </footer>
 
 
